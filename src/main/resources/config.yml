@@ -1,0 +1,13 @@
+# Alle Zeiten in Sekunden. Vieles davon kannst du auch im Menue (/kopfgeld) aendern.
+border-start-size: 50          # Border vor dem Start
+border-end-size: 3000          # Border nach dem Start
+border-expand-seconds: 15      # So lange dauert das Vergroessern
+initial-wait-seconds: 300      # Timer bis zur ersten Auslosung (5 Min)
+hunt-seconds: 900              # Zeit zum Killen des Ziels (15 Min)
+wait-increase-seconds: 300     # Pause wird nach jedem Kopfgeld um so viel laenger (+5 Min)
+ban-on-fail: true              # Wer sein Ziel nicht killt, stirbt und wird gebannt
+eliminate-on-death: true       # Wer stirbt, ist raus (Zuschauer). So gibt es am Ende einen Gewinner.
+ban-on-any-death: false        # true = wer stirbt, wird zusaetzlich gebannt
+proximity-warning: true        # Gejagte hoeren einen Herzschlag, wenn ihr Jaeger in der Naehe ist
+kill-reward: true              # Wer sein Ziel killt, bekommt dessen Kopf, goldene Aepfel und Buffs
+last-minute-glow: true         # In der letzten Minute der Jagd leuchten alle, die noch gejagt werden

@@ -1,0 +1,22 @@
+name: Kopfgeld
+version: '${version}'
+main: de.kopfgeld.KopfgeldPlugin
+api-version: '26.3'
+description: Kopfgeld - jeder jagt jemanden, wer sein Ziel nicht killt, stirbt.
+commands:
+  kopfgeld:
+    description: Oeffnet das Kopfgeld-Menue (Unterbefehle - menu, start, stop, skip, pause, status)
+    usage: /kopfgeld [menu|start|stop|skip|pause|status]
+    aliases: [kg]
+    permission: kopfgeld.admin
+  start:
+    description: Startet das Kopfgeld-Spiel
+    usage: /start
+    permission: kopfgeld.admin
+  kopfgeldstop:
+    description: Bricht das Kopfgeld-Spiel ab und setzt alles zurueck
+    usage: /kopfgeldstop
+    permission: kopfgeld.admin
+permissions:
+  kopfgeld.admin:
+    default: op
